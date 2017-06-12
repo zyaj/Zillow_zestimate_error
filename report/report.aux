@@ -1,0 +1,72 @@
+\relax 
+\@writefile{toc}{\contentsline {section}{\numberline {1}Project definition}{1}}
+\newlabel{sec:definition}{{1}{1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.1}Project overview}{1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.2}Problem statement}{2}}
+\newlabel{eq:define-log-error}{{1}{2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.3}Performance metrics}{2}}
+\newlabel{eq:define-evaluation-metric}{{2}{2}}
+\@writefile{toc}{\contentsline {section}{\numberline {2}Data analysis}{3}}
+\newlabel{sec:analysis}{{2}{3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}Dataset overview}{3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}Data exploration}{3}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces The percentage of missing values for different features of each house.}}{4}}
+\newlabel{fig:missing-values}{{1}{4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3}Exploratory visualization analysis}{5}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.3.1}The number of sold house vs. sale month}{5}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces The histogram of sold houses in the transaction dataset during 2016.}}{5}}
+\newlabel{fig:num-sold-vs-month}{{2}{5}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces The histogram of $\xi _{\qopname  \relax o{log}}$ in the transaction dataset. The solid line is the best fit of normal distribution.}}{5}}
+\newlabel{fig:hist-error}{{3}{5}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.3.2}The histogram of $\xi _{\qopname  \relax o{log}}$}{6}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces The variations of monthly averaged $\xi _{\qopname  \relax o{log}}$, averaged $|\xi _{\qopname  \relax o{log}}|$, maximum and minimum $\xi _{\qopname  \relax o{log}}$.}}{6}}
+\newlabel{fig:error-vs-month}{{4}{6}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.3.3}Transaction date vs. $\xi _{\qopname  \relax o{log}}$}{6}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.3.4}The relationship among $\xi _{\qopname  \relax o{log}}$, house location and yearbuilt}{6}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces The variations of $\xi _{\qopname  \relax o{log}}$ for transactions occured at different month during 2016.}}{7}}
+\newlabel{fig:error-variation-different-month}{{5}{7}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.4}Regression models}{7}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces The spacial distribution of $\xi _{\qopname  \relax o{log}}$.}}{8}}
+\newlabel{fig:error-long-lat}{{6}{8}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces The variations of $\xi _{\qopname  \relax o{log}}$ for houses that are built at different years.}}{8}}
+\newlabel{fig:total-error-yearbuilt}{{7}{8}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces The variations of $\xi _{\qopname  \relax o{log}}$ for houses that are built at different years for the three counties in California.}}{9}}
+\newlabel{fig:diff-location-error-yearbuild}{{8}{9}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.5}Benchmark model}{10}}
+\@writefile{toc}{\contentsline {section}{\numberline {3}Methodology}{10}}
+\newlabel{sec:methodology}{{3}{10}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Data preprocessing}{10}}
+\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces The heatmap of the correlation coefficients among different features in the preprocessed dataset.}}{11}}
+\newlabel{fig:corr-train-data}{{9}{11}}
+\@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces The correlation coefficients between $\xi _{\qopname  \relax o{log}}$ and other features.}}{12}}
+\newlabel{fig:corr-features-vs-error}{{10}{12}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Model implementation and refinement}{13}}
+\@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces The optimization curve (left) and training time (right) for linear regression model. For left panel, the black and red lines represent the training and validation curves, respectively. For right panel, the black and red lines represent the training and prediction time, respectively.}}{14}}
+\newlabel{fig:linear_regression_opt}{{11}{14}}
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Scores for model evaluation}}{14}}
+\newlabel{tab:score-model-evaluation}{{1}{14}}
+\@writefile{lof}{\contentsline {figure}{\numberline {12}{\ignorespaces The optimization curve (left) and training time (right) for $k$-nearest neighbors regression model. For left panel, the black and red lines represent the training and validation curves, respectively. For right panel, the black and red lines represent the training and prediction time, respectively.}}{15}}
+\newlabel{fig:knn_opt}{{12}{15}}
+\@writefile{lof}{\contentsline {figure}{\numberline {13}{\ignorespaces The optimization curve (left) and training time (right) for decision tree regression model. For left panel, the black and red lines represent the training and validation curves, respectively. For right panel, the black and red lines represent the training and prediction time, respectively.}}{15}}
+\newlabel{fig:decision_tree_opt}{{13}{15}}
+\@writefile{toc}{\contentsline {section}{\numberline {4}Results}{15}}
+\newlabel{sec:results}{{4}{15}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Model Evaluation}{15}}
+\@writefile{lof}{\contentsline {figure}{\numberline {14}{\ignorespaces The optimization curve (left) and training time (right) for random forest regression model. For left panel, the black and red lines represent the training and validation curves, respectively. For right panel, the black and red lines represent the training and prediction time, respectively.}}{16}}
+\newlabel{fig:random_forest_opt}{{14}{16}}
+\@writefile{lof}{\contentsline {figure}{\numberline {15}{\ignorespaces The optimization curve (left) for learning rate and training time (right) for LightGBM model. For left panel, the black and red lines represent the training and validation curves, respectively. For right panel, the black and red lines represent the training and prediction time, respectively.}}{16}}
+\newlabel{fig:lightgbm_lr_opt}{{15}{16}}
+\@writefile{lof}{\contentsline {figure}{\numberline {16}{\ignorespaces The comparison between real and predicted monthly average $\xi _{\qopname  \relax o{log}}$ of the training dataset. Legend: blue: exact $\xi _{\qopname  \relax o{log}}$, red: LightGBM, black: linear regression, green: decision tree, yellow: random forest, magenta: $k$-nearest neighbor }}{17}}
+\newlabel{fig:monthly-average-error-prediction}{{16}{17}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Validation and justification}{17}}
+\@writefile{lof}{\contentsline {figure}{\numberline {17}{\ignorespaces The importance of different features to predict log error based on the LightGBM model.}}{18}}
+\newlabel{fig:feature_importance}{{17}{18}}
+\@writefile{lof}{\contentsline {figure}{\numberline {18}{\ignorespaces The importance of different features to predict log error based on random forest regression model.}}{19}}
+\newlabel{fig:feature_importance_random_forest}{{18}{19}}
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces Scores for the sensitivity tests of the LightGBM model}}{19}}
+\newlabel{tab:score-sensitivity-test}{{2}{19}}
+\@writefile{toc}{\contentsline {section}{\numberline {5}Conclusion}{19}}
+\newlabel{sec:conclusion}{{5}{19}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}Project summary}{19}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}Feature importance}{20}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3}Improvement}{20}}
